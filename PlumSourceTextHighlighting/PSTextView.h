@@ -1,5 +1,5 @@
 //
-//  PSViewController.h
+//  PSTextView.h
 //  PlumSourceTextView
 //
 //  Created by Matt on 10/13/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PSViewController : UIViewController
+@interface PSTextView : UITextView
 
 @end

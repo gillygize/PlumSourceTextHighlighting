@@ -18,18 +18,17 @@
 		F44409FC162998B20056AB2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44409FB162998B20056AB2F /* Default-568h@2x.png */; };
 		F44409FF162998B20056AB2F /* PSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44409FE162998B20056AB2F /* PSViewController.m */; };
 		F4440A02162998B20056AB2F /* PSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4440A00162998B20056AB2F /* PSViewController_iPhone.xib */; };
-		F4440A05162998B20056AB2F /* PSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4440A03162998B20056AB2F /* PSViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F44409E1162998B20056AB2F /* PlumSourceTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlumSourceTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44409E1162998B20056AB2F /* PlumSourceTextHighlighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlumSourceTextHighlighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44409E5162998B20056AB2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F44409E7162998B20056AB2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F44409E9162998B20056AB2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F44409ED162998B20056AB2F /* PlumSourceTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlumSourceTextView-Info.plist"; sourceTree = "<group>"; };
+		F44409ED162998B20056AB2F /* PlumSourceTextHighlighting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlumSourceTextHighlighting-Info.plist"; sourceTree = "<group>"; };
 		F44409EF162998B20056AB2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F44409F1162998B20056AB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F44409F3162998B20056AB2F /* PlumSourceTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlumSourceTextView-Prefix.pch"; sourceTree = "<group>"; };
+		F44409F3162998B20056AB2F /* PlumSourceTextHighlighting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlumSourceTextHighlighting-Prefix.pch"; sourceTree = "<group>"; };
 		F44409F4162998B20056AB2F /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
 		F44409F5162998B20056AB2F /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
 		F44409F7162998B20056AB2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -38,7 +37,6 @@
 		F44409FD162998B20056AB2F /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
 		F44409FE162998B20056AB2F /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
 		F4440A01162998B20056AB2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPhone.xib; sourceTree = "<group>"; };
-		F4440A04162998B20056AB2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,7 @@
 		F44409D6162998B10056AB2F = {
 			isa = PBXGroup;
 			children = (
-				F44409EB162998B20056AB2F /* PlumSourceTextView */,
+				F44409EB162998B20056AB2F /* PlumSourceTextHighlighting */,
 				F44409E4162998B20056AB2F /* Frameworks */,
 				F44409E2162998B20056AB2F /* Products */,
 			);
@@ -67,7 +65,7 @@
 		F44409E2162998B20056AB2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F44409E1162998B20056AB2F /* PlumSourceTextView.app */,
+				F44409E1162998B20056AB2F /* PlumSourceTextHighlighting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +80,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F44409EB162998B20056AB2F /* PlumSourceTextView */ = {
+		F44409EB162998B20056AB2F /* PlumSourceTextHighlighting */ = {
 			isa = PBXGroup;
 			children = (
 				F44409F4162998B20056AB2F /* PSAppDelegate.h */,
@@ -90,19 +88,18 @@
 				F44409FD162998B20056AB2F /* PSViewController.h */,
 				F44409FE162998B20056AB2F /* PSViewController.m */,
 				F4440A00162998B20056AB2F /* PSViewController_iPhone.xib */,
-				F4440A03162998B20056AB2F /* PSViewController_iPad.xib */,
 				F44409EC162998B20056AB2F /* Supporting Files */,
 			);
-			path = PlumSourceTextView;
+			path = PlumSourceTextHighlighting;
 			sourceTree = "<group>";
 		};
 		F44409EC162998B20056AB2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F44409ED162998B20056AB2F /* PlumSourceTextView-Info.plist */,
+				F44409ED162998B20056AB2F /* PlumSourceTextHighlighting-Info.plist */,
 				F44409EE162998B20056AB2F /* InfoPlist.strings */,
 				F44409F1162998B20056AB2F /* main.m */,
-				F44409F3162998B20056AB2F /* PlumSourceTextView-Prefix.pch */,
+				F44409F3162998B20056AB2F /* PlumSourceTextHighlighting-Prefix.pch */,
 				F44409F7162998B20056AB2F /* Default.png */,
 				F44409F9162998B20056AB2F /* Default@2x.png */,
 				F44409FB162998B20056AB2F /* Default-568h@2x.png */,
@@ -113,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F44409E0162998B20056AB2F /* PlumSourceTextView */ = {
+		F44409E0162998B20056AB2F /* PlumSourceTextHighlighting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4440A08162998B20056AB2F /* Build configuration list for PBXNativeTarget "PlumSourceTextView" */;
+			buildConfigurationList = F4440A08162998B20056AB2F /* Build configuration list for PBXNativeTarget "PlumSourceTextHighlighting" */;
 			buildPhases = (
 				F44409DD162998B20056AB2F /* Sources */,
 				F44409DE162998B20056AB2F /* Frameworks */,
@@ -125,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = PlumSourceTextView;
+			name = PlumSourceTextHighlighting;
 			productName = PlumSourceTextView;
-			productReference = F44409E1162998B20056AB2F /* PlumSourceTextView.app */;
+			productReference = F44409E1162998B20056AB2F /* PlumSourceTextHighlighting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +137,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Matt;
 			};
-			buildConfigurationList = F44409DB162998B10056AB2F /* Build configuration list for PBXProject "PlumSourceTextView" */;
+			buildConfigurationList = F44409DB162998B10056AB2F /* Build configuration list for PBXProject "PlumSourceTextHighlighting" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F44409E0162998B20056AB2F /* PlumSourceTextView */,
+				F44409E0162998B20056AB2F /* PlumSourceTextHighlighting */,
 			);
 		};
 /* End PBXProject section */
@@ -167,7 +164,6 @@
 				F44409FA162998B20056AB2F /* Default@2x.png in Resources */,
 				F44409FC162998B20056AB2F /* Default-568h@2x.png in Resources */,
 				F4440A02162998B20056AB2F /* PSViewController_iPhone.xib in Resources */,
-				F4440A05162998B20056AB2F /* PSViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +197,6 @@
 				F4440A01162998B20056AB2F /* en */,
 			);
 			name = PSViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		F4440A03162998B20056AB2F /* PSViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4440A04162998B20056AB2F /* en */,
-			);
-			name = PSViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -269,9 +257,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlumSourceTextView/PlumSourceTextView-Prefix.pch";
-				INFOPLIST_FILE = "PlumSourceTextView/PlumSourceTextView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PlumSourceTextHighlighting/PlumSourceTextHighlighting-Prefix.pch";
+				INFOPLIST_FILE = "PlumSourceTextHighlighting/PlumSourceTextHighlighting-Info.plist";
+				PRODUCT_NAME = PlumSourceTextHighlighting;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,9 +269,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlumSourceTextView/PlumSourceTextView-Prefix.pch";
-				INFOPLIST_FILE = "PlumSourceTextView/PlumSourceTextView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PlumSourceTextHighlighting/PlumSourceTextHighlighting-Prefix.pch";
+				INFOPLIST_FILE = "PlumSourceTextHighlighting/PlumSourceTextHighlighting-Info.plist";
+				PRODUCT_NAME = PlumSourceTextHighlighting;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F44409DB162998B10056AB2F /* Build configuration list for PBXProject "PlumSourceTextView" */ = {
+		F44409DB162998B10056AB2F /* Build configuration list for PBXProject "PlumSourceTextHighlighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4440A06162998B20056AB2F /* Debug */,
@@ -299,13 +289,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4440A08162998B20056AB2F /* Build configuration list for PBXNativeTarget "PlumSourceTextView" */ = {
+		F4440A08162998B20056AB2F /* Build configuration list for PBXNativeTarget "PlumSourceTextHighlighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4440A09162998B20056AB2F /* Debug */,
 				F4440A0A162998B20056AB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
