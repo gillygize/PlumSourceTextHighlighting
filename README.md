@@ -3,6 +3,9 @@ PlumSourceTextHighlighting
 
 A simple example of how to do text highlighting in iOS 6.
 
+License
+=======
+
 Copyright (c) 2012, Matthew Gillingham
 All rights reserved.
 
